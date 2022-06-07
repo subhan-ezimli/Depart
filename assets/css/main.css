@@ -59,6 +59,16 @@ body .top-bar ul li a.lang img {
     width: 20px;
     margin-right: 3px
 }
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+}
+.image-container img{
+width: 200px;
+height: 170px;
+object-fit: cover;
+}
 
 @media screen and (max-width: 500px) {
     body .top-bar ul {
